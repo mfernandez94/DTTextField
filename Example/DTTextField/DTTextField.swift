@@ -61,7 +61,7 @@ public class DTTextField: UITextField {
                 dtLayer.cornerRadius        = 0.0
                 dtLayer.borderWidth         = 0.0
             case .rounded:
-                dtLayer.cornerRadius        = 4.5
+                dtLayer.cornerRadius        = 12.0
                 dtLayer.borderWidth         = borderWidth
                 dtLayer.borderColor         = borderColor.cgColor
             case .sqare:
